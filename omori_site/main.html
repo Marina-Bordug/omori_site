@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>OMORI_SITE</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="main-body">
+    <nav>
+        <ul class="navigation">
+            <li><a href="characters.html" class="nav-a"><strong>ПЕРСОНАЖИ</strong></a></li>
+            <li><a href="locations.html" class="nav-a">ЛОКАЦИИ</a></li>
+            <li><a href="music.html" class="nav-a">МУЗЫКА</a></li>
+            <li><a href="resources.html" class="nav-a">ИСТОЧНИКИ</a></li>
+        </ul>
+    </nav>
+    <div class="overlay">
+        <div class="gallery">
+            <button onclick="prevImage()" class="button-r"><img src="img/hand-left.png" alt="hand-left" class="hands"></button>
+            <img id="photo" src="" alt="Фото" class="picture fade-in">
+            <button onclick="nextImage()" class="button-l"><img src="img/hand-right.png" alt="hand-right" class="hands"></button>
+            <div class="description" id="description"></div>
+        </div>
+    </div>
+    <a href="index.html" class="hand"><img src="img/hand.gif" alt="hand"></a>
+    <p class="copyright_m">&copy Marina</p>
+    <script src="script.js"></script>
+</body>
+</html>
